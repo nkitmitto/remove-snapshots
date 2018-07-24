@@ -7,6 +7,7 @@ Resources:
         Alias: "myLambdaFunctionAlias"
         CurrentVersion: "1"
         TargetVersion: "2"
+	BundleType: "YAML"
 Hooks:
     - BeforeAllowTraffic: "LambdaFunctionToValidateBeforeTrafficShift"
     - AfterAllowTraffic: "LambdaFunctionToValidateAfterTrafficShift"
