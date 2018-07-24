@@ -4,11 +4,11 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Build started on `date`
-      - echo Compiling the Python code...
+      - echo Build started 
+      - echo Compiling the Python code
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Build completed on date
 artifacts:
   files:
     - remove_snapshots.py 
